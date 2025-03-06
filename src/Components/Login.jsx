@@ -26,6 +26,7 @@ const Login = () => {
         </div>
         <div>
           <label className=" block mb-2 text-sm font-medium text-gray-900 dark:text-white " htmlFor="text">Last name</label>
+          <label className=" block mb-2 text-sm font-medium text-gray-900 dark:text-white " htmlFor="text">Last name</label>
           <input value={lname} onChange={(e) => setLname(e.target.value)} className=" shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-50 p-2.5 " type="text"  id="name" />
         </div>
         <button type="submit" className=' mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-40'> Login </button>
